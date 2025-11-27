@@ -1,0 +1,99 @@
+
+.details-container{
+  display:flex;
+  gap:40px;
+  padding:40px;
+  align-items:flex-start;
+}
+
+.poster-area .poster{
+  width:340px;
+  border-radius:12px;
+  box-shadow:0 4px 20px rgba(0,0,0,0.4);
+}
+
+.info{
+  display:flex;
+  gap:12px;
+  margin:15px 0 25px 0;
+}
+
+.tag{
+  background:rgba(255,255,255,0.12);
+  padding:8px 14px;
+  border-radius:6px;
+  font-weight:500;
+}
+
+.back-btn{
+  display:inline-block;
+  margin-top:30px;
+  padding:12px 22px;
+  background:linear-gradient(135deg,#6b2cff,#b13cff);
+  color:white;
+  border-radius:8px;
+  text-decoration:none;
+  font-weight:600;
+  transition:0.2s;
+}
+
+.back-btn:hover{
+  opacity:0.85;
+}
+
+.overview{
+  text-align:justify;
+  line-height:1.6;
+}
+
+.trailer-box{
+  margin-top:25px;
+}
+
+.age-0{ background:#3dd365; } /* Livre */
+.age-10{ background:#0096eb; }
+.age-12{ background:#ffcc00; }
+.age-14{ background:#ff7f00; }
+.age-16{ background:#e53935; }
+.age-18{ background:#000; color:#fff; }
+
+.infoBox{
+  margin-top:20px;
+  background:rgba(255,255,255,0.05);
+  padding:20px;
+  border-radius:12px;
+  width:280px;
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+  border:1px solid rgba(255,255,255,0.12);
+}
+
+.infoRow{
+  background:rgba(255,255,255,0.08);
+  padding:10px 14px;
+  border-radius:10px;
+  display:flex;
+  justify-content:space-between;
+}
+
+/* age colors remain */
+
+.classBox{
+  margin-top:12px;
+  padding:10px 16px;
+  border-radius:10px;
+  font-weight:bold;
+  width:80px;
+  text-align:center;
+}
+
+/* age colors reuse */
+.delete-btn{
+  margin-top:20px;
+  padding:10px 16px;
+  background:#d33;
+  color:#fff;
+  border:none;
+  border-radius:8px;
+}
